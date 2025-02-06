@@ -12,8 +12,8 @@ using StudentPortal.Web.Data;
 namespace StudentPortal.Web.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250205190956_initial Migration")]
-    partial class initialMigration
+    [Migration("20250206110547_Initial Migration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
